@@ -13,6 +13,7 @@ def status():
             mimetype='application/json'
             )
 
+
 @app_views.route('/stats', methods=['GET'], strict_slashes=False)
 def stats():
     """Retrieves number of objects by type"""
